@@ -1,5 +1,7 @@
 const BASE_VALUE: i32 = 32;
 fn main() {
+    //Ternary?
+    let ternary: i32 = if true { 32 } else { 64 };
 
     // Basic usage
     if (BASE_VALUE == 32) 
